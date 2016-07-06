@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+
+    <title>Figure 1</title>
+
+    {{ js_resources|indent(4)|safe }}
+
+    {{ css_resources|indent(4)|safe }}
+
+  </head>
+  <body>
+    <img src="{{url_for('static',filename='img/avgFare.jpg')}}" alt="img01" />
+    <p> Mapping of average taxi fare per trip versus pick-up location for New York City yellow cab in January 2015.
+    Color scale indicates average amount of taxi fare per trip: fare increases from dark blue to red and yellow.
+    Average fare above $24 is plotted in yellow.</p>
+    
+    <p>This figure clears shows that average taxi fare is strongly correlated with pick-up location. </p>
+  </body>
+</html>
