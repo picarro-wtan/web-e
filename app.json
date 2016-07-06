@@ -1,0 +1,7 @@
+{
+  "name": "My Webpage",
+  "description": "A Python app, which can easily be deployed to Heroku.",
+  "image": "heroku/python",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}
