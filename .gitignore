@@ -1,3 +1,10 @@
+#virtual env settings
+./gettingstarted
+manage.py
+./venv
+time_dep - Copy.csv
+time_dep.csv
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
