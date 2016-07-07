@@ -1,6 +1,6 @@
 #virtual env settings
-venv/*
-gettingstarted/*
+venv\*
+gettingstarted\*
 manage.py
 
 # Windows image file caches
