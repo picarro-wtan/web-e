@@ -517,7 +517,8 @@ button:focus {
 
 .item__content p {
 	font-size: 1.0em;
-	padding: 0.25em;
+	padding: 0.35em;
+
 	color:#F9FBE7;
 	font-family: "Arial";
 
