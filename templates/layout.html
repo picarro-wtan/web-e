@@ -38,11 +38,14 @@
 		<div class="stack-slider">
 			<div class="stacks-wrapper">
 				<div class="stack">
-					<h2 class="stack-title"><a href="{{url_for('plot_data', _anchor='figure1')}}" data-text="Figure 1"><span>Figure 1</span></a></h2>
+					<h2 class="stack-title"><a href="{{url_for('plot_data', _anchor='figure1')}}" data-text="About me"><span>About me</span></a></h2>
+					
 					<div class="item">
 						<div class="item__content">
-							{{ plot_div|indent(4)|safe }}
-							<h3 class="item__title">Total number of taxi trips versus days. </h3>
+							<h3 class="item__title">Wenting Tan (Michelle)</h3>
+							<img src="{{url_for('static',filename='img/wenting.jpg')}}" width="10" />
+							<p>Wenting Tan is a recent graduate with a M.S. degree in computer science at the College of William and Mary. She also got her M.S. and B.S. degrees in Physics. She currently is working as a software engineer in Silicon Valley. Art is also a part of her life. She plays piano and pipa and is very good at sketching.</p>
+							<p>She is an enthusiast in Astronomy, ancient civilizations, wild adventure and traveling...</p>
 						</div>
 					</div>
 				</div>

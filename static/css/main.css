@@ -516,7 +516,11 @@ button:focus {
 }
 
 .item__content p {
-	font-size: 0.75em;
+	font-size: 1.0em;
+	padding: 0.25em;
+	color:#F9FBE7;
+	font-family: "Arial";
+
 }
 
 .item:first-of-type .item__content::before,
@@ -535,19 +539,20 @@ button:focus {
 }
 
 .item:first-of-type .item__content::before {
-	background: #b8b8b8;
+	background: #FFCCBC;
 	-webkit-transform: translate3d(0,-20px,0) scale3d(0.9,0.9,1);
 	transform: translate3d(0,-20px,0) scale3d(0.9,0.9,1);
 }
 
 .item:first-of-type .item__content::after {
-	background: #a7a7a7;
+	background: #BDBDBD;
 	-webkit-transform: translate3d(0,-10px,0) scale3d(0.95,0.95,1);
 	transform: translate3d(0,-10px,0) scale3d(0.95,0.95,1);
 }
 
 .item img {
-	width: 100%;
+	width: 30%;
+	margin: auto;
 	display: block;
 	position: relative;
 	z-index: 100;
@@ -555,8 +560,8 @@ button:focus {
 
 .item__title {
 	font-size: 1.25em;
-	margin: 0;
-	padding: 0.75em 0;
+	
+	padding: 2em 0;
 	color: #9d9d9d;
 }
 
